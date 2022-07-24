@@ -1,5 +1,5 @@
 {
-  "author": "myestery <xgirma@gmail.com>",
+  "author": "myestery",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/playwright-typescript-ts-jest-jest-assert/issues"
   },
@@ -17,8 +17,10 @@
   "license": "MIT",
   "name": "node-cli-log-parser",
   "scripts": {
-    "test": "npx jest --watchAll",
-    "dev": "tsc -w"
+    "test": "npx jest",
+    "test:watch": "npx jest --watchAll",
+    "dev": "tsc -w",
+    "build": "tsc"
   },
   "version": "1.0.0"
 }

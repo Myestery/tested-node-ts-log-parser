@@ -8,3 +8,5 @@ git@github.com:e2e-boilerplate/playwright-typescript-ts-jest-jest-assert.git
 ## Getting Started
 1. npm install
 2. npm test
+3. npm run build
+4. node parser --input ./logs/debug.log --output output.json

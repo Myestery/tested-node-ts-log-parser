@@ -10,8 +10,11 @@
     "typeRoots": [
       "node_modules/@types"
     ],
-    "outDir": ".",
+    "outDir": "build",
     "rootDir": "src",
     "target": "es5"
-  }
+  },
+  "exclude": [
+    "src/__tests__"
+  ],
 }
