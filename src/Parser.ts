@@ -1,4 +1,3 @@
-const minimist = require("minimist");
 const fs = require("fs");
 
 interface LogEntry {
@@ -68,9 +67,3 @@ export class Parser {
   }
 }
 
-// const parser = new Parser(
-//   minimist(process.argv.slice(2)).input,
-//   minimist(process.argv.slice(2)).output
-// );
-// parser.parse();
-// const logEntries = parser.parseLogFile();
